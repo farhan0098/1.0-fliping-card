@@ -8,13 +8,13 @@ function flipCard(param){
     var randomNumber = Math.ceil(Math.random() * 3);
 
     if (param === 1 && randomNumber === 1){
-        card1.src="image/download.png"
+        card1.src="download.png"
         alert("you are win")
     }else if(param === 1 && randomNumber === 2){
-        card2.src="image/istockphoto-1440592316-612x612.jpg"
+        card2.src="istockphoto-1440592316-612x612.jpg"
         alert("you are win")
     }else if(param === 1 && randomNumber === 3 ){
-        card3.src="image/download.jpeg"
+        card3.src="download.jpeg"
         alert("your are loss")
     }
 }
